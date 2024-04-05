@@ -1,0 +1,1 @@
+pip3 install dash_mantine_components

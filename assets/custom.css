@@ -1,0 +1,12 @@
+.custom-navbar-color {
+    background-color: #7D8ACF !important;
+}
+
+.body-content {
+    background-color: white;
+}
+
+/* Change the font color of the navbar links
+.custom-navbar-color .navbar-nav .nav-link {
+    color: #yourNavbarFontColor !important;
+} */
