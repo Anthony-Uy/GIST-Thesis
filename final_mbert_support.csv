@@ -1,0 +1,13 @@
+month,positive,negative,neutral,unclear
+January,2,0,2,0
+February,0,0,0,1
+March,42,8,525,114
+April,10,2,138,46
+May,1,1,50,10
+June,1,0,22,6
+July,1,0,13,5
+August,1,0,17,4
+September,2,0,38,3
+October,0,0,3,4
+November,0,1,6,1
+December,0,0,1,2
