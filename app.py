@@ -94,7 +94,7 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/model':
         return dmc.Container([
-            dmc.Title('Top 5 Topics from BERTTopic', color="blue", size="h3"),
+            dmc.Title('Top 5 Topics from BERTopic', color="blue", size="h3"),
             dmc.Grid([
                 dmc.Col([
                     dcc.Graph(id='stacked-bar-chart-topics', style={'height': '700px'})  
