@@ -94,7 +94,7 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/model':
         return dmc.Container([
-            dmc.Title('Sentiment Analysis Over Topics', color="blue", size="h3"),
+            dmc.Title('Top 5 Topics from BERTTopic', color="blue", size="h3"),
             dmc.Grid([
                 dmc.Col([
                     dcc.Graph(id='stacked-bar-chart-topics', style={'height': '700px'})  
@@ -144,7 +144,7 @@ def display_sentiment_analysis(clickData):
                 selected_topic_data = df_symptoms_mbert
 
         return [
-            dmc.Title(f'Sentiment Analysis Over Time for {selected_topic}', color="blue", size="h3"),
+            dmc.Title(f'Sentiment Analysis Over Time for {selected_topic} using mBERT in the year 2020', color="blue", size="h3"),
             dmc.Grid([
                 dmc.Col([
                     dcc.Graph(
