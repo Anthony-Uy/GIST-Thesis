@@ -264,7 +264,7 @@ def update_topic_graph(hoverData):
             )
 
     fig.update_layout(
-        title='Sentiment Analysis Over Topics',
+        title='Top 5 Topics',
         barmode='stack',
         xaxis_title='Topic',
         yaxis_title='Responses',
